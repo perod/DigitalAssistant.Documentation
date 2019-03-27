@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>SampleChatbot.Webjob</Name>
+    <Description>SampleChatbot.Webjob template definition</Description>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>1cb63c46-4c31-4040-932d-18307529d473</TemplateID>
+    <DefaultName>SampleChatbot.Webjob</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+		<Project File="SampleChatbot.Webjob.csproj" ReplaceParameters="true">
+			<ProjectItem ReplaceParameters="true">App.config</ProjectItem>
+			<ProjectItem ReplaceParameters="true">packages.config</ProjectItem>
+			<ProjectItem ReplaceParameters="true">Program.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true">SampleChatbot.Webjob.csproj</ProjectItem>
+			<ProjectItem ReplaceParameters="true">settings.job</ProjectItem>
+			<ProjectItem ReplaceParameters="true">Properties\AssemblyInfo.cs</ProjectItem>
+		</Project>
+  </TemplateContent>
+</VSTemplate>

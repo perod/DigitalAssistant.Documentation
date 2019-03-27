@@ -1,0 +1,55 @@
+site_name: Unit4 Bot Framework
+site_favicon: images/favicon.png
+extra_css: [css/extra.css]
+pages:
+- Introduction: 'index.md'
+- Development guide:
+    - 'Overview': 'dev-introduction.md'
+    - 'Tutorial': 'chatbot-tutorial.md'
+    - 'Chatbot template': 'chatbot-template.md'
+    - 'Chatbot emulator': 'emulator.md'
+    - 'Dialogs': 'dialogs.md'
+    - 'LUIS': 'luis.md'
+    - 'Conversation context': 'conversation-context.md'
+    - 'User identity': 'user-identity.md'
+    - 'Dependecy injection': 'dependecy-injection.md'
+    - 'Calling APIs from a chatbot': 'calling-web-api.md'
+    - 'Writing dialog tests': 'writing-tests.md'
+    - 'Utility services': 'bot-builder-services.md'
+    - 'Affirmation': 'affirmation.md'
+    - 'Logging': 'logging.md'
+    - 'Proactive conversations': 'proactive-conversations.md'
+    - 'Adaptive cards': 'adaptive-cards.md'
+- Conversation guide:
+    - 'Writing guidelines for bot conversations': 'writing-guidelines.md'
+    - 'Heuristics for evaluating bot usability': 'usability-evaluation-bots.md'
+- Architecture guide:
+    - 'Wanda ecosystem': 'operation/ecosystem.md'
+    - 'Architecture overview': 'operation/architecture.md'
+    - 'Bot channel registration': 'operation/bot-registration.md'
+    - 'Azure service dependencies': 'operation/common-service-dependencies.md'
+    - 'Bot message flow': 'operation/bot-message-flow.md'
+    - 'End to end': 'operation/end-to-end.md'
+    - 'Notfications': 'operation/notifications.md'
+    - 'Tasks web application': 'operation/tasks-app.md'
+- Operations guide:
+    - 'Introduction': 'operation/operation-intro.md'
+    - 'Chatbot deployment overview': 'deploy-chatbot.md'
+    - 'Customer adoption': 'operation/customer-adoption.md'
+    - 'Identity services': 'operation/identity-services.md'
+    - 'Discovery': 'operation/discovery.md'
+    - 'Monitoring': 'operation/monitoring.md'
+    - 'User diagnostics': 'operation/user-diagnostics.md'
+    - 'Disaster recovery': 'operation/disaster-recovery.md'
+    - 'LUIS': 'operation/luis.md'
+    - 'QnA Maker': 'operation/qna-maker.md'
+    - 'Customer QnA service': 'operation/customer-qna.md'
+- Release pipelines:
+    - 'Introduction': 'operation/pipelines-intro.md'
+    - 'Core digital assistant': 'operation/pipelines-core.md'
+    - 'Travel and expenses': 'operation/pipelines-travel.md'
+    - 'Timesheet': 'operation/pipelines-timesheet.md'
+    - 'Human resources': 'operation/pipelines-hr.md'
+    - 'Purchasing': 'operation/pipelines-purchasing.md'
+    - 'Tasks': 'operation/pipelines-tasks.md'
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130px" height="257px" viewBox="0 0 130 257" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Disclosure</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3,216.312735 L3,251.847054 L89.834032,128.423527 L3,5 L3,40.5343188 L64.834032,128.423527 L3,216.312735 Z" id="path-1"></path>
+        <path d="M60,198.296201 L60,226.488742 L129.157127,128.342873 L60,29.8916901 L60,58.1719324 L109.291644,128.342873 L60,198.296201 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Disclosure">
+            <g id="Combined-Shape">
+                <use fill="#CCCCCC" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <path stroke="#CCCCCC" stroke-width="1" d="M3.5,216.470999 L3.5,250.267417 L89.2226859,128.423527 L3.5,6.57963696 L3.5,40.3760546 L65.445378,128.423527 L3.5,216.470999 Z"></path>
+            </g>
+            <g id="Combined-Shape-Copy">
+                <use fill="#A5A5A5" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <path stroke="#A5A5A5" stroke-width="0.8" d="M60.4,198.422973 L60.4,225.226632 L128.668051,128.342515 L60.4,31.1570099 L60.4,58.0454821 L109.78072,128.34323 L60.4,198.422973 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

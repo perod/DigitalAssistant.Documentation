@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>{% if page_title %}{{ page_title }} - {% endif %}{{ site_name }}</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="{{ base_url }}/img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link type="text/css" rel="stylesheet" href="{{ base_url }}/css/wanda.css">
+    <link type="text/css" rel="stylesheet" href="{{ base_url }}/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="{{ base_url }}/css/bootstrap-theme.min.css">
+    <script type="text/javascript" src="{{ base_url }}/js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="{{ base_url }}/js/wanda.js"></script>
+</head>
+
+<body>
+    <div id="header" class="container header navbar-fixed-top">
+        {% if not nav.homepage == page %}
+        <div id="goBackButton" class="back-container" data-target="{{ base_url }}">
+            <img src="{{ base_url }}/img/Disclosure2.svg">
+        </div>
+        {% endif %}
+        <a href="{{ base_url }}">
+            <div class="header-title"><b>Unit4 Wanda</b> Help Center</div>
+        </a>
+        <div class="gradient"></div>
+    </div>
+    <!-- HOMEPAGE -->
+    {% if nav.homepage == page %}
+    <div class="container top-space">
+        <div class="welcome-container">
+            <img src="{{ base_url }}/img/WandaTalk.svg">
+        </div>
+        <p class="welcome">Your Unit4 digital assistant Wanda helps you take care of your most routine Business World tasks.</p>
+    </div>
+    <div class="container">
+        {% for nav_item in nav %} {% for nav_item in nav_item.children %} {% if not nav_item.url == nav.homepage.url %}
+        <a class="topic" href="{{ nav_item.url }}">
+            <div class="topic-block">
+                <div class="title">{{ nav_item.title }}</div>
+                <div class="disclosure-container">
+                    <img src="{{ base_url }}/img/Disclosure.svg">
+                </div>
+            </div>
+        </a>
+        {% endif %} {% endfor %} {% endfor %}
+        <div id="toTopButton" class="top-container">
+            <img src="{{ base_url }}/img/Top.svg" width="30" height="30">
+        </div>
+    </div>
+    {% else %}
+    <!-- SUBPAGES -->
+    <div class="container top-space">
+        {% for toc_item in toc %}
+        <h4 class="title" >{{ toc_item.title }}</h4>
+        {% endfor %}
+    </div>
+
+    <div class="container">
+        {% for toc_item in toc %} {% for sub_item in toc_item.children %}
+        <a class="topic" data-target="{{ sub_item.url }}">
+            <div class="topic-block">
+                <div class="title">{{ sub_item.title }}</div>
+                <div class="disclosure-container">
+                    <img src="{{ base_url }}/img/Disclosure.svg">
+                </div>
+            </div>
+        </a>
+        {% endfor %} {% endfor %}
+    </div>
+    <div class="container">
+        <div class="content-area">
+
+            {{ page.content }}
+
+            <div id="toTopButton" class="top-container">
+                <img src="{{ base_url }}/img/Top.svg" width="30" height="30">
+            </div>
+        </div>
+    </div>
+    {% endif %}
+
+    <div class="container footer">
+        <div class="logo-container">
+            <img src="{{ base_url }}/img/Unit4LogoWhite.svg">
+            <span align="right">In business for people.</span>
+        </div>
+    </div>
+</body>
+
+</html>

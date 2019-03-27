@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Unit4 Wanda Chatbot</Name>
+    <Description>Unit4 Wanda Chatbot Template containing a default template for creating a Unit4 Chatbot.</Description>
+    <Icon>U4.Chatbot.ProjectTemplate.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>4.6.1</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>74f1f6dd-7858-4ef8-907c-f43724265abe</TemplateID>
+    <CreateNewFolder>false</CreateNewFolder>
+    <DefaultName>U4.Area.Chatbot</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <CreateInPlace>true</CreateInPlace>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+      <ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">SampleChatbot\SampleChatbot.vstemplate</ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Tests" CopyParameters="true">SampleChatbot.Tests\SampleChatbot.Tests.vstemplate</ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Emulator" CopyParameters="true">SampleChatbot.Emulator\SampleChatbot.Emulator.vstemplate</ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Webjob" CopyParameters="true">SampleChatbot.Webjob\SampleChatbot.Webjob.vstemplate</ProjectTemplateLink>
+    </ProjectCollection>
+    <CustomParameters>
+      <CustomParameter Name="$company$" Value="Unit4"/>
+      <CustomParameter Name="$year$" Value="2018"/>
+    </CustomParameters>
+  </TemplateContent>
+</VSTemplate>

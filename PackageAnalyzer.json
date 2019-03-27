@@ -1,0 +1,18 @@
+[
+  {
+    "storageIdentifier": "PackageAnalyzer",
+    "headerText": "Third party dependencies for the PackageAnalyzer",
+    "indexFileName": "PackageAnalyzer.html",
+    "outputPath": "c:\\temp\\packageAnalyzer",
+    "pageTitle": "PackageAnalyzer - third party dependencies",
+    "rootFolder": "C:\\VS2017\\pp-git\\DigitalAssistant.Documentation",
+    "solutionAreaTags": ["DigitalAssistant"],
+    "solutions": [
+      {
+        "projectsToIgnore": [ "Test" ],
+        "projectReferencesToIgnore": [],
+        "solutionFile": "PackageAnalyzer\\PackageAnalyzer.sln"
+      }
+    ]
+  }
+]

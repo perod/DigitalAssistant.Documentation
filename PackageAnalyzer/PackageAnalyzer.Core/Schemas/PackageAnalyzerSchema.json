@@ -1,0 +1,144 @@
+﻿//Schema: http://json-schema.org/draft-04/schema
+{
+  "description": "Package analyzer. Utility used to traverse .Net solutions for third party assemblies.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [ "headerText", "indexFileName", "rootFolder", "outputPath", "pageTitle", "solutions", "storageIdentifier", "solutionAreaTags" ],
+    "properties": {
+      "storageIdentifier": {
+        "type": "string",
+        "description": "Unique identifier for the current group of solutions - used when storing results in cloud storage."
+      },
+      "solutionAreaTags": {
+        "oneOf": [ { "$ref": "#/definitions/solutionAreaTags" } ],
+        "description": "Tags describing where the current group of solutions are used."
+      },
+      "headerText": {
+        "type": "string",
+        "description": "Heading text to present with HTML result page."
+      },
+      "pageTitle": {
+        "type": "string",
+        "description": "Page title presented with HTML result page."
+      },
+      "rootFolder": {
+        "type": "string",
+        "description": "Path to the root folder for repository under examination."
+      },
+      "outputPath": {
+        "type": "string",
+        "description": "Full path to store HTML result page"
+      },
+      "indexFileName": {
+        "type": "string",
+        "description": "Name of html page containing the solution results"
+      },
+      "renderProperties": {
+        "oneOf": [ { "$ref": "#/definitions/renderProperties" } ],
+        "description": "Defines what to render. If left blank, uses a default set of properties"
+      },
+      "solutions": {
+        "type": "array",
+        "description": "The solutions to analyze",
+        "items": {
+          "type": "object",
+          "required": [ "solutionFile", "projectsToIgnore", "projectReferencesToIgnore" ],
+          "properties": {
+            "solutionFile": {
+              "type": "string",
+              "description": "Relative path to solution to analyze (relative too root folder of parent element)."
+            },
+            "projectReferencesToIgnore": {
+              "type": "array",
+              "description": "Project references to exclude from summary. If the name of a referenced project within one of the projects of the solution to examine contains any of these values, it will be excluded from the summary.",
+              "items": { "type": "string" }
+            },
+            "projectsToIgnore": {
+              "type": "array",
+              "description": "Projects to exclude from summary. If the name of a project within the solution to examine contains any of these values, it will be excluded from the summary.",
+              "items": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "renderProperties": {
+      "properties": {
+        "count": { "type": "boolean" },
+        "includeDuplicates": { "type": "boolean" },
+        "includePackageDependencies": { "type": "boolean" },
+        "pageAutomaticRefresh": { "type": "boolean" },
+        "includeSolutionInformation": { "type": "boolean" },
+        "nugetProperties": {
+          "oneOf": [ { "$ref": "#/definitions/nugetProperties" } ]
+        },
+        "packageProperties": {
+          "oneOf": [ { "$ref": "#/definitions/packageProperties" } ]
+        },
+        "projectReferenceProperties": {
+          "oneOf": [ { "$ref": "#/definitions/projectReferenceProperties" } ]
+        }
+      }
+    },
+    "projectReferenceProperties": {
+      "type": "object",
+      "description": "Properties for including project information from the project reference itself",
+      "properties": {
+        "name": { "type": "boolean" },
+        "version": { "type": "boolean" },
+        "culture": { "type": "boolean" },
+        "publicKeyToken": { "type": "boolean" },
+        "processorArchitecture": { "type": "boolean" },
+        "location": { "type": "boolean" },
+        "private": { "type": "boolean" },
+        "projectGuid": { "type": "boolean" },
+        "licenseFiles": { "type": "boolean" },
+        "parentProjectName": { "type": "boolean" },
+        "parentProjectPath": { "type": "boolean" }
+      }
+    },
+    "packageProperties": {
+      "type": "object",
+      "description": "Properties for including project information from package reference",
+      "properties": {
+        "id": { "type": "boolean" },
+        "version": { "type": "boolean" },
+        "targetFramework": { "type": "boolean" }
+      }
+    },
+    "nugetProperties": {
+      "type": "object",
+      "description": "Properties for including project information from nuget package.",
+      "properties": {
+        "id": { "type": "boolean" },
+        "version": { "type": "boolean" },
+        "description": { "type": "boolean" },
+        "licenseUrl": { "type": "boolean" },
+        "licenseType": { "type": "boolean" },
+        "authors": { "type": "boolean" },
+        "owners": { "type": "boolean" },
+        "projectUrl": { "type": "boolean" }
+      }
+    },
+    "solutionAreaTags": {
+      "description": "Tags describing where this solution group is used",
+      "items": {
+        "enum": [
+          "DigitalAssistant",
+          "FunctionalAggregator",
+          "Chatbots",
+          "TravelAndExpense",
+          "HumanResources",
+          "Timesheet",
+          "Purchasing",
+          "TimeCapture",
+          "Location",
+          "Workflow"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+﻿{
+  /*Webjob scheduled to run at: At 08:00 AM, only on Monday*/
+  "schedule": "0 0 8 * * 1"
+}

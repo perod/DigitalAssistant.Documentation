@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chatbot", "Chatbot", "{65C7AA3C-128B-4266-ADF5-CE7A5700B461}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateBuilder", "TemplateBuilder\TemplateBuilder.csproj", "{8C59B3AB-F42E-4722-A68D-9AE22CBDC014}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateBuilder.ConsoleApp", "TemplateBuilder.ConsoleApp\TemplateBuilder.ConsoleApp.csproj", "{C86E11CE-6D29-4D71-A54E-8213C6E6682D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleChatbot", "SampleChatbot\SampleChatbot.csproj", "{2FAFDAA0-E2BD-497B-9BB7-F410585B8333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleChatbot.Emulator", "SampleChatbot.Emulator\SampleChatbot.Emulator.csproj", "{B3A3999E-DAF6-4287-8280-56239BEE12E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleChatbot.Tests", "SampleChatbot.Tests\SampleChatbot.Tests.csproj", "{E1E2CCF6-6C85-4544-9B7D-8C0E5FE361A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U4.Chatbot.ProjectTemplate", "U4.Chatbot.ProjectTemplate\U4.Chatbot.ProjectTemplate.csproj", "{9C7E11E9-CEB1-48EC-991A-835897699826}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U4.Chatbot.ProjectTemplate.Vsix", "U4.Chatbot.ProjectTemplate.Vsix\U4.Chatbot.ProjectTemplate.Vsix.csproj", "{1F6807B7-40B3-43AF-85E4-A6CE4D4E69A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleChatbot.Webjob", "SampleChatbot.Webjob\SampleChatbot.Webjob.csproj", "{F1FC446D-188F-45F8-AD19-E07B01E129E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C59B3AB-F42E-4722-A68D-9AE22CBDC014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C59B3AB-F42E-4722-A68D-9AE22CBDC014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C59B3AB-F42E-4722-A68D-9AE22CBDC014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C59B3AB-F42E-4722-A68D-9AE22CBDC014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C86E11CE-6D29-4D71-A54E-8213C6E6682D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C86E11CE-6D29-4D71-A54E-8213C6E6682D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C86E11CE-6D29-4D71-A54E-8213C6E6682D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C86E11CE-6D29-4D71-A54E-8213C6E6682D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FAFDAA0-E2BD-497B-9BB7-F410585B8333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FAFDAA0-E2BD-497B-9BB7-F410585B8333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FAFDAA0-E2BD-497B-9BB7-F410585B8333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FAFDAA0-E2BD-497B-9BB7-F410585B8333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3A3999E-DAF6-4287-8280-56239BEE12E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3A3999E-DAF6-4287-8280-56239BEE12E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3A3999E-DAF6-4287-8280-56239BEE12E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3A3999E-DAF6-4287-8280-56239BEE12E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1E2CCF6-6C85-4544-9B7D-8C0E5FE361A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1E2CCF6-6C85-4544-9B7D-8C0E5FE361A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1E2CCF6-6C85-4544-9B7D-8C0E5FE361A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1E2CCF6-6C85-4544-9B7D-8C0E5FE361A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C7E11E9-CEB1-48EC-991A-835897699826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C7E11E9-CEB1-48EC-991A-835897699826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C7E11E9-CEB1-48EC-991A-835897699826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C7E11E9-CEB1-48EC-991A-835897699826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F6807B7-40B3-43AF-85E4-A6CE4D4E69A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6807B7-40B3-43AF-85E4-A6CE4D4E69A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6807B7-40B3-43AF-85E4-A6CE4D4E69A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6807B7-40B3-43AF-85E4-A6CE4D4E69A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1FC446D-188F-45F8-AD19-E07B01E129E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1FC446D-188F-45F8-AD19-E07B01E129E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1FC446D-188F-45F8-AD19-E07B01E129E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1FC446D-188F-45F8-AD19-E07B01E129E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2FAFDAA0-E2BD-497B-9BB7-F410585B8333} = {65C7AA3C-128B-4266-ADF5-CE7A5700B461}
+		{B3A3999E-DAF6-4287-8280-56239BEE12E3} = {65C7AA3C-128B-4266-ADF5-CE7A5700B461}
+		{E1E2CCF6-6C85-4544-9B7D-8C0E5FE361A8} = {65C7AA3C-128B-4266-ADF5-CE7A5700B461}
+		{F1FC446D-188F-45F8-AD19-E07B01E129E5} = {65C7AA3C-128B-4266-ADF5-CE7A5700B461}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8
+		SolutionGuid = {85A649A6-4230-4240-99A7-00545AEB724D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>SampleChatbot.Emulator</Name>
+    <Description>SampleChatbot.Emulator template definition</Description>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>95c03e1c-03ad-4d92-a953-c1d059d6749c</TemplateID>
+    <DefaultName>SampleChatbot.Emulator</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+		<Project File="SampleChatbot.Emulator.csproj" ReplaceParameters="true">
+			<ProjectItem ReplaceParameters="true">App.config</ProjectItem>
+			<ProjectItem ReplaceParameters="true">EmulatorAgent.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true">packages.config</ProjectItem>
+			<ProjectItem ReplaceParameters="true">Program.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true">SampleChatbot.Emulator.csproj</ProjectItem>
+			<ProjectItem ReplaceParameters="true">Properties\AssemblyInfo.cs</ProjectItem>
+		</Project>
+  </TemplateContent>
+</VSTemplate>

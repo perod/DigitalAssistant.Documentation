@@ -1,0 +1,118 @@
+﻿//Schema ..\Schemas\PackageAnalyzerSchema.json
+[
+  {
+    "headerText": "Third party assemblies used by the Digital assistant system",
+    "pageTitle": "Digital assistant system",
+    "outputPath": "c:\\temp\\PackageAnalyzer",
+    "indexFileName": "DigitalAssistantSystem.html",
+    "rootFolder": "C:\\VS2015\\pp-git",
+    "storageIdentifier": "EntireDigitialAssistant",
+    "solutionAreaTags": ["Chatbots", "DigitalAssistant"],
+    "solutions": [
+
+      //Travel and expense
+      {
+        "solutionFile": "TravelDomain\\U4.TravelDomain\\U4.TravelDomain.sln",
+        "projectReferencesToIgnore": [ "U4" ],
+        "projectsToIgnore": [ "Test", "ExpenseNotifications" ]
+      },
+      {
+        "solutionFile": "TravelDomain\\U4.TravelRequest\\U4.TravelRequest.sln",
+        "projectReferencesToIgnore": [ "U4" ],
+        "projectsToIgnore": [ "Test", "Emulator" ]
+      },
+      {
+        "solutionFile": "TravelDomain\\U4.Expenses.Agent\\U4.Expenses.Agent.sln",
+        "projectReferencesToIgnore": [ "U4" ],
+        "projectsToIgnore": [ "Test", "Receipt", "Mock", "Console", "Luis", "Emulator" ]
+      },
+
+      //Timesheet
+      {
+        "solutionFile": "TimesheetDomain\\U4.Timesheet.FunctionalAggregator\\U4.Timesheet.FunctionalAggregator.sln",
+        "projectReferencesToIgnore": [ "U4" ],
+        "projectsToIgnore": [ "Test" ]
+      },
+      {
+        "solutionFile": "TimesheetDomain\\U4.Bot.Agent.TimesheetAgent\\U4.Bot.Agent.TimesheetAgent.sln",
+        "projectReferencesToIgnore": [ "U4" ],
+        "projectsToIgnore": [ "Test", "Emulator" ]
+      },
+
+      //Timecapture
+      {
+        "solutionFile": "TimeCaptureService\\TimeCapture.sln",
+        "projectReferencesToIgnore": [ "U4" ],
+        "projectsToIgnore": [ "Test" ]
+      },
+
+      //Purchasing
+      {
+        "solutionFile": "Purchasing\\U4.Purchasing.WebApi.sln",
+        "projectReferencesToIgnore": [ "U4" ],
+        "projectsToIgnore": [ "Test" ]
+      },
+      {
+        "solutionFile": "Purchasing\\U4.Purchasing.Agent.sln",
+        "projectReferencesToIgnore": [ "U4" ],
+        "projectsToIgnore": [ "Test", "Emulator" ]
+      },
+
+      //Location service
+      {
+        "solutionFile": "LocationService\\LocationService.sln",
+        "projectReferencesToIgnore": [ "U4" ],
+        "projectsToIgnore": [ "Test" ]
+      },
+
+      //Human resources
+      {
+        "solutionFile": "HumanResourceFunctionalAggregator\\U4.BalanceDomain\\U4.HR.sln",
+        "projectReferencesToIgnore": [ "U4" ],
+        "projectsToIgnore": [ "Test" ]
+      },
+      {
+        "solutionFile": "HumanResourceFunctionalAggregator\\U4.Absence.Agent\\U4.Absence.Agent\\U4.Absence.Agent.sln",
+        "projectReferencesToIgnore": [ "U4" ],
+        "projectsToIgnore": [ "Test", "Emulator" ]
+      },
+      {
+        "solutionFile": "HumanResourceFunctionalAggregator\\U4.Balance.Agent\\U4.Balance.Agent.sln",
+        "projectReferencesToIgnore": [ "U4" ],
+        "projectsToIgnore": [ "Test", "Emulator" ]
+      },
+      {
+        "solutionFile": "HumanResourceFunctionalAggregator\\U4.FA.Payslip.Agent\\U4.Payslip.Agent.sln",
+        "projectReferencesToIgnore": [ "U4" ],
+        "projectsToIgnore": [ "Test", "Emulator", "Console" ]
+      },
+
+      //Digital assistant
+      {
+        "solutionFile": "DigitalAssistant\\AssistantService\\AssistantService.sln",
+        "projectReferencesToIgnore": [ "U4" ],
+        "projectsToIgnore": [ "Test" ]
+      },
+      {
+        "solutionFile": "DigitalAssistant\\HelpAgent\\U4.HelpAgent.sln",
+        "projectReferencesToIgnore": [ "U4" ],
+        "projectsToIgnore": [ "Test", "Emulator" ]
+      },
+      {
+        "solutionFile": "DigitalAssistant\\DiagnosticsChatbot\\U4.Diagnostics.Chatbot.sln",
+        "projectReferencesToIgnore": [ "U4" ],
+        "projectsToIgnore": [ "Test", "Emulator" ]
+      },
+      {
+        "solutionFile": "DigitalAssistant\\SalutationAgent\\U4.Bot.Agent.Salutation.sln",
+        "projectReferencesToIgnore": [ "U4" ],
+        "projectsToIgnore": [ "Test", "Emulator", "ConsoleApp" ]
+      },
+      {
+        "solutionFile": "DigitalAssistant\\U4.AdaptiveCards\\U4.AdaptiveCards.sln",
+        "projectReferencesToIgnore": [ "U4" ],
+        "projectsToIgnore": [ "Test", "Viewer" ]
+      }
+    ]
+  }
+]

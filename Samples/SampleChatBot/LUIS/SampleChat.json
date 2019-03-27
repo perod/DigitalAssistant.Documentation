@@ -1,0 +1,202 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "SampleChat",
+  "desc": "Test some simple chats",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "nice"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "rain"
+    },
+    {
+      "name": "weather"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [
+    "geography"
+  ],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "hello",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what is the weather like?",
+      "intent": "weather",
+      "entities": []
+    },
+    {
+      "text": "is it raining",
+      "intent": "rain",
+      "entities": []
+    },
+    {
+      "text": "tell me the weather",
+      "intent": "weather",
+      "entities": []
+    },
+    {
+      "text": "is it windy",
+      "intent": "weather",
+      "entities": []
+    },
+    {
+      "text": "is it sunny",
+      "intent": "nice",
+      "entities": []
+    },
+    {
+      "text": "is it raining?",
+      "intent": "rain",
+      "entities": []
+    },
+    {
+      "text": "what is the weather?",
+      "intent": "weather",
+      "entities": []
+    },
+    {
+      "text": "will it rain today",
+      "intent": "rain",
+      "entities": []
+    },
+    {
+      "text": "is it raining in london?",
+      "intent": "rain",
+      "entities": []
+    },
+    {
+      "text": "weather forecast",
+      "intent": "weather",
+      "entities": []
+    },
+    {
+      "text": "is it warm",
+      "intent": "nice",
+      "entities": []
+    },
+    {
+      "text": "what is todays forecast",
+      "intent": "weather",
+      "entities": []
+    },
+    {
+      "text": "is the weather good?",
+      "intent": "nice",
+      "entities": []
+    },
+    {
+      "text": "is it raining in oslo?",
+      "intent": "rain",
+      "entities": []
+    },
+    {
+      "text": "is it raining in london",
+      "intent": "rain",
+      "entities": []
+    },
+    {
+      "text": "will it be dry today?",
+      "intent": "nice",
+      "entities": []
+    },
+    {
+      "text": "is it nice outside",
+      "intent": "nice",
+      "entities": []
+    },
+    {
+      "text": "how much wind is it",
+      "intent": "weather",
+      "entities": []
+    },
+    {
+      "text": "is it warm weather",
+      "intent": "nice",
+      "entities": []
+    },
+    {
+      "text": "is it raining in granada",
+      "intent": "rain",
+      "entities": []
+    },
+    {
+      "text": "is it raining in london,uk?",
+      "intent": "rain",
+      "entities": []
+    },
+    {
+      "text": "is it raining in bergen?",
+      "intent": "rain",
+      "entities": []
+    },
+    {
+      "text": "is it raining in oslo",
+      "intent": "rain",
+      "entities": []
+    },
+    {
+      "text": "is it balmy",
+      "intent": "nice",
+      "entities": []
+    },
+    {
+      "text": "is it sunny in oslo",
+      "intent": "nice",
+      "entities": []
+    },
+    {
+      "text": "what is the weahter like in houston?",
+      "intent": "weather",
+      "entities": []
+    },
+    {
+      "text": "what is the weather like in aruba",
+      "intent": "weather",
+      "entities": []
+    },
+    {
+      "text": "is it sunny in granada?",
+      "intent": "nice",
+      "entities": []
+    },
+    {
+      "text": "jeg vil gjerne kunne snakke",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what is the weather in utrecht?",
+      "intent": "weather",
+      "entities": []
+    },
+    {
+      "text": "is it nice in london?",
+      "intent": "nice",
+      "entities": []
+    },
+    {
+      "text": "is it warm in granada?",
+      "intent": "nice",
+      "entities": []
+    },
+    {
+      "text": "is it nice in amersfoort?",
+      "intent": "nice",
+      "entities": []
+    }
+  ]
+}

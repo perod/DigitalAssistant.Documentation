@@ -1,0 +1,44 @@
+﻿//Schema: ..\Schemas\LicenseMapSchema.json
+[
+  {
+    "licenseUrls": [
+      "http://www.opensource.org/licenses/mit-license.php",
+      "https://opensource.org/licenses/mit-license.php",
+      "https://raw.githubusercontent.com/Microsoft/AdaptiveCards/master/LICENSE",
+      "https://raw.githubusercontent.com/robertwilczynski/nChronic/master/LICENSE",
+      "https://github.com/alastairtree/LazyCache/blob/master/LICENSE",
+      "https://github.com/Microsoft/ApplicationInsights-Home/blob/master/LICENSE",
+      "https://raw.githubusercontent.com/Microsoft/dotnet/master/LICENSE",
+      "https://github.com/Microsoft/BotBuilder/blob/master/LICENSE",
+      "https://github.com/OfficeDev/BotBuilder-MicrosoftTeams/blob/master/LICENSE",
+      "https://raw.githubusercontent.com/OData/odata.net/master/LICENSE.txt",
+      "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet/blob/master/LICENSE.txt",
+      "https://raw.github.com/robertwilczynski/nChronic/master/LICENSE",
+      "http://go.microsoft.com/fwlink/?LinkID=510709",
+      "http://go.microsoft.com/fwlink/?linkid=833178",
+      "https://go.microsoft.com/fwlink/?linkid=841311",
+      "https://github.com/Microsoft/AdaptiveCards/blob/master/LICENSE",
+      "https://github.com/Azure/azure-functions-vs-build-sdk/blob/master/LICENSE",
+      "https://raw.github.com/JamesNK/Newtonsoft.Json/master/LICENSE.md"
+    ],
+    "licenseType": "MIT"
+  },
+  {
+    "licenseUrls": [
+      "http://go.microsoft.com/fwlink/?LinkId=331471",
+      "https://opensource.org/licenses/Apache-2.0",
+      "http://www.apache.org/licenses/LICENSE-2.0",
+      "http://www.apache.org/licenses/LICENSE-2.0.html",
+      "https://github.com/IdentityServer/IdentityServer3.AccessTokenValidation/blob/master/LICENSE",
+      "http://aka.ms/windowsazureapache2"
+    ],
+    "licenseType": "APACHE 2.0"
+  },
+  {
+    "licenseUrls": [
+      "https://opensource.org/licenses/ms-pl",
+      "http://www.opensource.org/licenses/ms-pl"
+    ],
+    "licenseType": "MS-PL"
+  }
+]

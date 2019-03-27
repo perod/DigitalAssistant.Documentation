@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="432px" height="431px" viewBox="0 0 432 431" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Top</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M2.84217094e-14,202.69048 L2.84217094e-14,236.774882 L83.2909178,118.387441 L2.88657986e-14,-1.85185201e-13 L2.84217094e-14,34.0844017 L59.311,118.387441 L2.04281037e-14,202.69048 Z" id="path-1"></path>
+        <path d="M54.6742125,185.40908 L54.6742125,212.451272 L121.009501,118.310078 L54.6742125,23.8760273 L54.6742125,51.0023426 L101.954595,118.310078 L54.6742125,185.40908 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Top">
+            <circle id="Oval-3" fill="#4E5C68" cx="216" cy="215" r="213"></circle>
+            <g id="Group" transform="translate(216.500000, 215.000000) rotate(-90.000000) translate(-216.500000, -215.000000) translate(155.500000, 96.500000)">
+                <g id="Combined-Shape">
+                    <use fill="#D2D5D7" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <path stroke="#D2D5D7" stroke-width="1" d="M0.5,202.848745 L0.5,235.195245 L82.6795717,118.387441 L0.5,1.57963696 L0.5,33.9261375 L59.922346,118.387441 L0.5,202.848745 Z"></path>
+                </g>
+                <g id="Combined-Shape-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <path stroke="#FFFFFF" stroke-width="0.8" d="M55.0742125,185.535852 L55.0742125,211.189163 L120.520425,118.30972 L55.0742125,25.1413471 L55.0742125,50.8758923 L102.443671,118.310435 L55.0742125,185.535852 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+﻿//Schema: http://json-schema.org/draft-04/schema
+{
+  "description": "License mapper. Used to map licsense urls to license shorthand identifier",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [ "licenseUrls", "licenseType" ],
+    "properties": {
+      "licenseUrls": {
+        "type": "array",
+        "description": "Url to license information.",
+        "items": {
+          "type": "string"
+        }
+      },
+      "licenseType": {
+        "type": "string",
+        "description": "Shorthand license type identifier."
+      }
+    }
+  }
+}

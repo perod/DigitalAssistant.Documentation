@@ -1,0 +1,18 @@
+site_name: Wanda help center
+site_favicon: images/favicon.png
+extra_css: [css/extra.css]
+theme_dir: 'wanda_theme'
+pages:
+- Help Center:
+    - 'Welcome': 'index.md'
+    - 'What''s new': 'whatsnew.md'
+    - 'Learn about Wanda': 'general.md'
+    - 'Expenses': 'expenses.md'
+    - 'Travel': 'travel.md'
+    - 'Time': 'time.md'
+    - 'Self-service HR': 'personnel.md'
+    - 'Tasks': 'tasks.md'
+    - 'Purchasing': 'purchasing.md'
+    - 'Wanda Companion': 'wandacompanion.md'
+    - 'How Wanda protects your privacy': 'privacy.md'
+    - 'Wanda Privacy Statement': 'wandaprivacystatement.md'

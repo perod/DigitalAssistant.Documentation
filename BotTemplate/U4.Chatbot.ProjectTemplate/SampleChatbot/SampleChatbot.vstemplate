@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>SampleChatbot</Name>
+    <Description>SampleChatbot template definition</Description>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>477f0ed7-1e59-40cd-a182-5d02f320426a</TemplateID>
+    <DefaultName>SampleChatbot</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+		<Project File="SampleChatbot.csproj" ReplaceParameters="true">
+			<ProjectItem ReplaceParameters="true">Agent.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true">app.config</ProjectItem>
+			<ProjectItem ReplaceParameters="true">Constants.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true">packages.config</ProjectItem>
+			<ProjectItem ReplaceParameters="true">SampleChatbot.csproj</ProjectItem>
+			<ProjectItem ReplaceParameters="true">SampleChatbot.csproj.user</ProjectItem>
+			<ProjectItem ReplaceParameters="true">Dialogs\MainDialog.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true">Dialogs\Children\ChildDialog.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true">Ioc\IocConfiguration.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true">Ioc\Modules\DialogsModule.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true">Ioc\Modules\ServicesModule.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true">Models\ChildDialogModel.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true">Models\HealthResult.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true">Properties\AssemblyInfo.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true">Services\BusinessLogic\BusinessLogicService.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true">Services\BusinessLogic\IBusinessLogicService.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true">Services\Health\ChatbotHealthChecker.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true">Services\Health\IChatbotHealthChecker.cs</ProjectItem>
+		</Project>
+  </TemplateContent>
+</VSTemplate>

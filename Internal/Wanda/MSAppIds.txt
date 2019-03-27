@@ -1,0 +1,32 @@
+PØS
+    <add key="MicrosoftAppID" value="99e04b8d-2c35-4a41-af08-af47b294db3e" />
+    <add key="MicrosoftAppPassword" value="bnhsZsCUaSOnQcPa9zbSOsf" />
+Wendy
+    <add key="MicrosoftAppID" value="6b7625bd-382a-43bb-8954-026062f49578" />
+    <add key="MicrosoftAppPassword" value="tbAtvYuA7gPsyrk5B8ZKwgb" />
+
+Wanda
+    <add key="MicrosoftAppID" value="068b5368-5a87-4ad0-9591-5149c1ffec05" />
+    <add key="MicrosoftAppPassword" value="QfCHSh9Sm0C8Riga3FM4qpM" />
+
+Winston
+    <add key="MicrosoftAppID" value="1524052a-2b12-4ebc-a81e-993a4fd9f12a" />
+    <add key="MicrosoftAppPassword" value="p476zJZgHCutXTNfFMAV0nU" />
+	
+Wall-E
+    <add key="MicrosoftAppID" value="faa21519-aaa0-422d-97eb-078f94f95dc4" />
+    <add key="MicrosoftAppPassword" value="YYpsS2kBt7bhg0CAL40e1qh" />
+
+Walther
+    <add key="MicrosoftAppID" value="cec2139f-103a-4d06-9c43-9eba3f07d7af" />
+    <add key="MicrosoftAppPassword" value="KNs3jGMbAqv6bAHr3Yv2rCr" />
+
+Walter
+    <add key="MicrosoftAppID" value="62566521-07f2-4705-b7d9-4890b346a672" />
+    <add key="MicrosoftAppPassword" value="WUKhh3fRcmL5mMfLXoogzwP" />
+
+Wanda @ Three Rivers University (WandaThreeRiversUniversity)
+    <add key="MicrosoftAppID" value="1c9112c7-1f4d-417e-8c06-5771403e6425" />
+    <add key="MicrosoftAppPassword" value="NJird6ExbK8HNpwtkcLNFqE" />
+
+	

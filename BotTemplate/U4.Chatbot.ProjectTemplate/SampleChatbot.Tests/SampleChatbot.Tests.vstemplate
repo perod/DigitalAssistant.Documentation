@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>SampleChatbot.Tests</Name>
+    <Description>SampleChatbot.Tests template definition</Description>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>96ce211d-99ef-4c9d-825b-e94165b3fb39</TemplateID>
+    <DefaultName>SampleChatbot.Tests</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+		<Project File="SampleChatbot.Tests.csproj" ReplaceParameters="true">
+			<ProjectItem ReplaceParameters="true">app.config</ProjectItem>
+			<ProjectItem ReplaceParameters="true">packages.config</ProjectItem>
+			<ProjectItem ReplaceParameters="true">SampleChatbot.Tests.csproj</ProjectItem>
+			<ProjectItem ReplaceParameters="true">Dialogs\MainDialogTests.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true">Dialogs\Children\ChildDialogTests.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true">Properties\AssemblyInfo.cs</ProjectItem>
+		</Project>
+  </TemplateContent>
+</VSTemplate>
